@@ -84,7 +84,6 @@ const search = ref('');
 const employees = ref([
   { id: 1, name: 'Nguyễn Văn A', dob: '28/02/1990', email: 'nvana@gmail.com', address: 'Ba Đình, Hà Nội', status: 'Đang hoạt động' },
   { id: 2, name: 'Trần Thị B', dob: '15/07/1985', email: 'ttb@gmail.com', address: 'Cầu Giấy, Hà Nội', status: 'Ngừng hoạt động' },
-  // Add more employees here
 ]);
 const showForm = ref(false);
 const selectedEmployee = ref(null);

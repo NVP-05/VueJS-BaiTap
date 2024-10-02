@@ -102,5 +102,4 @@ const handleSubmit = () => {
 </script>
 
 <style scoped>
-/* You can add more styles here if necessary */
 </style>
