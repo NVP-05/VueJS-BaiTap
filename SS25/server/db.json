@@ -1,0 +1,29 @@
+{
+    "jobs": [
+        {
+            "name":"Quét nhà",
+            "status":false,
+            "id":1
+        },
+        {
+            "name":"Quét sân",
+            "status":false,
+            "id":2
+        },
+        {
+            "name":"Code game",
+            "status":true,
+            "id":3
+        },
+        {
+            "name":"Code web",
+            "status":false,
+            "id":4
+        },
+        {
+            "name":"Làm bt",
+            "status":false,
+            "id":5
+        }
+    ]
+}
