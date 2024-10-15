@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "name": "Túi VLS 911",
+            "image":"https://www.gento.vn/wp-content/uploads/2023/05/tui-xach-nu-6-600x600.jpg",
+            "price": 20,
+            "total":20,
+            "decription": "Túi chính hãng giá chỉ 99k",
+            "id": 1
+        },
+        {
+            "name": "Túi SAT 0310",
+            "image":"https://www.vascara.com/uploads/cms_productmedia/2023/April/19/tui-xach-tay-vintage---sat-0310---mau-kem__69598__1681901721-medium.jpg",
+            "price": 20,
+            "total":20,
+            "decription": "Túi chính hãng giá chỉ 99k",
+            "id": 2
+        },
+        {
+            "name": "Túi TX05 Pollen",
+            "image":"https://bizweb.dktcdn.net/100/360/581/products/tui-xach-tay-nu-gence-cao-cap-tx05-vang-1.jpg?v=1685612876783",
+            "price": 20,
+            "total":20,
+            "decription": "Túi chính hãng giá chỉ 99k",
+            "id": 3
+        }
+    ],
+    "cart":[
+            {
+                "name": "Túi VLS 911",
+                "image":"https://www.gento.vn/wp-content/uploads/2023/05/tui-xach-nu-6-600x600.jpg",
+                "price": 20,
+                "quantity":1,
+                "id": 1
+            },
+            {
+                "name": "Túi SAT 0310",
+                "image":"https://www.vascara.com/uploads/cms_productmedia/2023/April/19/tui-xach-tay-vintage---sat-0310---mau-kem__69598__1681901721-medium.jpg",
+                "price": 10,
+                "quantity":20,
+                "id": 2
+            }
+    ]
+}
