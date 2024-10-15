@@ -4,17 +4,18 @@ const products = {
   state: {
     products: [],
   },
+  getters: {},
   mutations: {
-    setProducts(state, payload) {
+    getProduct: (state, payload) => {
       state.products = payload;
-    }
+    },
   },
   actions: {
-    async fetchProducts({ commit }) {
+    getProduct: async ({ commit }) => {
       const data = await getAllProduct();
-      commit("setProducts", data);
-    }
-  }
+      commit("getProduct", data);
+    },
+  },
 };
 
 export default products;

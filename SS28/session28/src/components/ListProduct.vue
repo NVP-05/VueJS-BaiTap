@@ -3,7 +3,9 @@
     <h2 class="text-xl font-bold mb-4">List Product</h2>
     <div v-for="product in store.state.products.products" :key="product.id" class="border p-4 mb-4">
       <div class="flex gap-4 items-center">
+        <div>
         <img :src="product.image" class="w-16 h-16 object-cover" alt="Product image" />
+        </div>
         <div>
           <h3 class="font-bold">{{ product.name }}</h3>
           <p>{{ product.description }}</p>
@@ -25,10 +27,13 @@ import { useStore } from 'vuex';
 
 const store = useStore();
 const getAllProduct = async () => {
-  store.dispatch("fetchProducts");
+  store.dispatch("getProduct");
 }
-
-onMounted(() => {
+onMounted(()=>{
   getAllProduct();
 });
 </script>
+
+<style>
+
+</style>
